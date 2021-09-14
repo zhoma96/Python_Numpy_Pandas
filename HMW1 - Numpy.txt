@@ -1,0 +1,35 @@
+1st TASK
+
+Python 3.9.5 (default, May 27 2021, 19:45:35) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> import pandas as pd
+>>> a = np.array([[1,6],
+... [2,8],
+... [3,11],
+... [3,10],
+... [1,7]])
+>>> print(a)
+[[ 1  6]
+ [ 2  8]
+ [ 3 11]
+ [ 3 10]
+ [ 1  7]]
+>>> mean_a = a.mean(axis = 0)
+>>> print(mean_a)
+[2.  8.4]
+---------------------------------------------------------------------------------------
+2nd TASK
+
+>>> a_centered = a - mean_a
+>>> print(a_centered)
+[[-1.  -2.4]
+ [ 0.  -0.4]
+ [ 1.   2.6]
+ [ 1.   1.6]
+ [-1.  -1.4]]
+
+---------------------------------------------------------------------------------------
+3rd TASK
+
